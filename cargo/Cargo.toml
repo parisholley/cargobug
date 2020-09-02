@@ -1,0 +1,17 @@
+[package]
+name = "cargobug"
+version = "0.0.0"
+edition = "2018"
+publish = false
+
+[lib]
+path = "../lib/noop.rs"
+
+[dependencies]
+
+rusoto_ssm = "0.44.0"
+
+[raze]
+workspace_path = "//cargo"
+default_gen_buildrs = true
+output_buildfile_suffix = "BUILD.bazel"

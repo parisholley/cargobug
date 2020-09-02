@@ -1,0 +1,7 @@
+bazel-bin
+bazel-cargobug
+bazel-out
+bazel-testlogs
+cargo/vendor
+cargo/BUILD.bazel
+cargo/Cargo.lock
